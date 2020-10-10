@@ -1,0 +1,164 @@
+#poster{
+    position: absolute;
+    width: 351px;
+    height: 585px;
+    left: 119px;
+    top: 127px;
+}
+#nome{
+position: absolute;
+width: 581px;
+height: 73px;
+left: 667px;
+top: 112px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 67.77px;
+line-height: 90px;
+
+color: #1B1D1C;
+}
+
+
+#data{
+    position: absolute;
+    width: 422px;
+    height: 32px;
+    left: 668px;
+    top: 209px;
+}
+
+#genero{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 0px 0px 8px;
+
+position: absolute;
+width: 131px;
+height: 32px;
+left: 783px;
+top: 209px;
+
+background: #EFE8D8;
+border-radius: 10px;
+}
+
+#duracao{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 0px 0px 8px;
+
+position: absolute;
+width: 64px;
+height: 32px;
+left: 929px;
+top: 209px;
+
+background: #EFE8D8;
+border-radius: 10px;
+}
+
+#trailer{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 0px 0px 8px;
+
+position: absolute;
+width: 83px;
+height: 32px;
+left: 1007px;
+top: 209px;
+
+background: #EFE8D8;
+border-radius: 10px;
+}
+
+#nota{
+    position: absolute;
+width: 66px;
+height: 32px;
+left: 783px;
+top: 265px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 100%;
+/* or 100% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+
+
+#sinopse{
+    position: absolute;
+    width: 635px;
+    height: 238px;
+    left: 668px;
+    top: 343px;
+    
+    /* Inter-16-Regular */
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    /* primary-text */
+    
+    color: #1B1D1C;
+}
+#enviar{
+    left: 700px;
+    top: 660px;
+    width: 75px;
+    height: 35px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Inter, serif;
+    position: relative;
+}
+
+
+/* #notacritica{
+    left: 700px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Inter, serif;
+    position: relative;
+}
+
+#critica{
+    left: 700px;
+    width: 500px;
+    height: 445px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Inter, serif;
+    position: relative;
+} */
+
+
+footer {
+    bottom: 0;
+    top:100vh;
+}

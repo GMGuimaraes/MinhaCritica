@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;500&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Cadastro Minha Critica</title>
+</head>
+
+<body>
+
+    <!-- Menu -->
+
+    <nav>
+        <a href="index.html">Minha Crítica</a>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#series">Séries</a></li>
+            <li><a href="#filmes">Filmes</a></li>
+            <li><a href="#livros">Livros</a></li>
+        </ul>
+    </nav>
+
+    <nav id="nav2">
+        <ul>
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Buscar" />
+                <img src="assets/Vector.svg" id="btnBusca" alt="Buscar" />
+            </div>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#login">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Meio -->
+
+    <form action="/savepoint" method="POST">
+
+        <h3>Criar conta</h3>
+
+        <fieldset>
+
+            <div class="field-group">
+                <div class="field">
+                    <label for="name">Nome completo</label>
+                    <input type="text" name="name" required="required">
+                </div>
+
+                <div class="field">
+                    <label for="name">Data de nascimento</label>
+                    <input type="date" name="data-nascimento" required="required">
+                </div>
+
+            </div>
+
+            <div class="field-group">
+                <div class="field">
+                    <label for="address">Nome de usuário</label>
+                    <input type="text" name="user" required="required">
+                </div>
+                <div class="field">
+                    <label for="address2">Senha</label>
+                    <input type="password" name="password" required="required">
+                </div>
+            </div>
+
+            <div class="field-group">
+
+                <div class="field">
+                    <label for="address">E-mail</label>
+                    <input type="text" name="email" required="required">
+                </div>
+
+                <div class="field">
+                    <label for="address2">Confirme a senha</label>
+                    <input type="confirm-password" name="confirm-password" required="required">
+                </div>
+            </div>           
+
+        </fieldset>
+        <button type="submit">Confirmar</button>
+
+    </form>
+
+
+
+
+    <!-- Footer -->
+    <footer id="footer1">
+        <a href="index.html">Minha Crítica</a>
+    </footer>
+    <footer id="footer2"></footer>
+
+
+</body>
+
+</html>

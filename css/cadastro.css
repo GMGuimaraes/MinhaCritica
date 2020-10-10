@@ -1,0 +1,134 @@
+#singup {
+/* CRIAR CONTA */
+
+position: relative;
+width: 429px;
+height: 77px;
+left: 95px;
+top: 280px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 77px;
+
+color: #000000;
+
+}
+
+
+form {
+    background-color: white;
+
+    margin: 80px auto;
+    /* preenchimento do form (fundo branco) */
+    padding: 64px;
+
+    border-radius: 8px;
+
+    max-width: 730px; 
+    
+}
+
+form h3 {
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+form fieldset {
+    margin-top: 64px;
+
+    border: 0;
+    
+}
+
+
+form .field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 24px;
+    
+    
+}
+
+form .field-group {
+    display: flex;
+    
+}
+
+form input,
+form select {
+
+    background-color: #f0f0f5;
+
+    border: 0;
+    padding: 16px 24px;
+    font-family: Montserrat;
+    font-size: 20px;
+
+    border-radius: 8px;
+
+    /* tira a linha preta quando está selecionado */
+    /*  outline: none; */
+}
+
+form select {
+    /* Serve para tirar problemas de compatibilidade
+    no chrome e mozila, as vezes ele nao aplica o 
+    estilo, esses comandos resetam as preferencias */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+form label {
+    font-family: Montserrat;
+    
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+form .field-group .field + .field {
+    margin-left: 24px;
+    
+}
+
+form button {
+    width: 260px;
+    height: 56px;
+
+    background-color: #61BFAD;
+    border-radius: 8px;
+
+    color: white;
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+
+    border: 0;
+    
+    margin-top: 40px;
+
+    transition: background-color 400ms;
+
+    cursor: pointer;
+
+    
+}
+
+
+
+
+form button:hover {
+    background-color: #2fb86e;
+}
+
+
+
+
+
